@@ -1,5 +1,4 @@
-a= int(input())
-b= int(input())
-c= b//a
+a = int(input())
+b = int(input())
+c = b // a
 print(c)
-

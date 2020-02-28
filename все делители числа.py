@@ -7,14 +7,14 @@
 
 ## или более эффективный способ
 
-n=int(input())
-i=1
-a=[]
-while i*i<=n:##или i<=n**0.5
-    if n%i==0:
+n = int(input())
+i = 1
+a = []
+while i * i <= n:  ##или i<=n**0.5
+    if n % i == 0:
         a.append(i)
-        if i!=n//i:
-            a.append(n//i)
-    i+=1
+        if i != n // i:
+            a.append(n // i)
+    i += 1
 a.sort()
 print(a)

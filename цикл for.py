@@ -22,7 +22,7 @@ chet = []
 nechet = []
 n = len(a)
 for i in range(n):
-    if a[i]%2==0:
+    if a[i] % 2 == 0:
         chet.append(i)
     else:
         nechet.append(i)
