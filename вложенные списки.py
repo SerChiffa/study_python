@@ -79,4 +79,3 @@ for i in range(3):
         s += a[i][j]
     print(s)
 print(a)
-print(' ')
