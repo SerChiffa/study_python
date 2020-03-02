@@ -66,4 +66,17 @@ for i in range(2, -1, -1):
     print()
 print(a)
 print(' ')
-
+print('Суммы строк вложенных списков')
+print('for i in range(3):')
+print('    s = 0')
+print('    for j in range(4):')
+print('        s += a[i][j]')
+print('    print(s)')
+print('print(a)')
+for i in range(3):
+    s = 0
+    for j in range(4):
+        s += a[i][j]
+    print(s)
+print(a)
+print(' ')
