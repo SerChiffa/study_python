@@ -55,11 +55,6 @@ print('    for j in range(3, -1, -1):')
 print('        print(a[i][j], end=' ')')
 print('    print()')
 print('print(a)')
-print('for i in range(2, -1, -1):')
-print('    for j in range(3, -1, -1):')
-print('        print(a[i][j], end=' ')')
-print('    print()')
-print('print(a)')
 for i in range(2, -1, -1):
     for j in range(3, -1, -1):
         print(a[i][j], end=' ')
