@@ -4,8 +4,8 @@ from sys import stdin
 
 line = input()
 symbols = line.split(' ')
-sum = 0
+sums = 0
 for i in symbols:
     digit = int(i)
     sum += digit
-print(sum)
+print(sums)
