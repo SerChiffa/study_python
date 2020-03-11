@@ -11,14 +11,14 @@
 #или таким образом, что даст список сумм без запятых
 
 n = int(input())
-a = ""
+a = ''
 for i in range(n):
     x = list(input().split())
     s = 0
     for j in x:
         s += int(j)
     a += str(s)
-    a += " "
+    a += ' '
 print(a)
 
 #или:
