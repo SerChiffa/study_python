@@ -20,3 +20,8 @@ for i in range(n):
     a += str(s)
     a += " "
 print(a)
+
+#или:
+#n = int(input())
+#for i in range(0, n):
+#    print(sum(map(int, input().split())))
