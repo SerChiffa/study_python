@@ -28,3 +28,11 @@ for calculation in range(n):
     d = d2 - d1
     answer += ('(' + str(d) + ' ' + str(h) + ' ' + str(m) + ' ' + str(s) + ') ')
 print(answer)
+
+# или более короткая версия:
+#n = int(input())
+#for i in range(n):
+#    a = list(map(int, input().split()))
+#    b = a[4] * 24 * 60 ** 2 + a[5] * 60 ** 2 + a[6] * 60 + a[7] - (
+#                a[0] * 24 * 60 ** 2 + a[1] * 60 ** 2 + a[2] * 60 + a[3])
+#    print("(%s %s %s %s)" % (b // (24 * 60 ** 2), b // 3600 % 24, (b // 60) % 60, b % 60), end=' ')
