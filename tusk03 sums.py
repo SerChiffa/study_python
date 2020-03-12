@@ -11,7 +11,7 @@ from sys import stdin
 
 line1 = input()
 line2 = input().split()
-summa = 0
+s = 0
 for i in range(0, len(line2)):
-    summa += int(line2[i])
-print(summa)
+    s += int(line2[i])
+print(s)
